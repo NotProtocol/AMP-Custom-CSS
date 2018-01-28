@@ -13,7 +13,7 @@ AMP by [CubeCoders](https://cubecoders.com).
 
 4: Once you have stopped the instance, go into the WebRoot folder in your instance
 
-5: After that, go into CSS
+5: After that, go into CSS.
 
 6: You should see a Custom.css, if you don't, you haven't started the instance correctly
 
