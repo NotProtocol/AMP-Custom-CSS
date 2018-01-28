@@ -1,0 +1,224 @@
+/*
+You can add your custom CSS here, this file won't be overwritten by updates
+*/
+/*#region Main*/
+a {
+  color: #DE5E5E;
+}
+a:hover {
+  color: #B33434;
+}
+a:active {
+  color: #772B2B;
+}
+a:visited {
+  color: #DE5E5E;
+}
+#barTop,
+#barBottom {
+  background-color: #B33434;
+}
+#userInfo {
+  background-color: #7E2525;
+}
+button,
+input[type=button],
+input[type=submit],
+.button {
+  background-color: #DE5E5E;
+  color: black;
+  border: 1px solid #DE5E5E;
+}
+button:hover,
+input[type=button]:hover,
+input[type=submit]:hover,
+.button:hover {
+  background-color: #B33434;
+}
+button:active,
+input[type=button]:active,
+input[type=submit]:active,
+.button:active {
+  background-color: #772323;
+}
+.iconButton:hover {
+  background-color: #5B1C1C;
+}
+.iconButton:active {
+  background-color: #DE5E5E;
+}
+.bgGray {
+  color: white;
+}
+.bgRed {
+  color: white;
+}
+.bgAmber {
+  color: white;
+}
+.bgGreen {
+  color: white;
+}
+input[type=checkbox]:before {
+  border: 2px solid #B33434;
+  border-right: 40px solid #B33434;
+  background: #5B1C1C;
+}
+input[type=checkbox]:checked:before {
+  background: white;
+  border-right: 2px solid #B33434;
+  border-left: 40px solid #B33434;
+}
+input[type=checkbox]:indeterminate:before {
+  border-right: 21px solid #B33434;
+  border-left: 21px solid #B33434;
+}
+input[type=checkbox]:hover:before {
+  border-color: #DE5E5E;
+}
+.wizardTab .wizardContents {
+  background-color: #772323;
+  border-bottom: 8px solid #B33434;
+}
+.wizardTab .wizardContents h2 {
+  background: #B33434;
+}
+/*#endregion*/
+/*#region side menu*/
+.pushBack {
+  background: #772323 !important;
+}
+#sideMenu a:hover {
+  background-color: #693333;
+}
+#sideMenu a:active {
+  background-color: #412525;
+}
+#sideMenu a.selected {
+  border-right: 4px solid #DE5E5E;
+}
+/*#endregion*/
+/*#region console*/
+.consoleTimestamp {
+  color: #DE5E5E;
+}
+/*#endregion*/
+/*#region scheduler*/
+.scheduleTriggerInfo {
+  border: 1px solid #DE5E5E;
+  background: #5B1C1C;
+}
+.scheduleTriggerDescription {
+  background: #DE5E5E;
+}
+.scheduleTriggerDescription::before {
+  color: #5B1C1C;
+}
+.scheduleTriggerDescriptionVariables::before {
+  color: #5B1C1C;
+}
+.scheduleTriggerTask {
+  border-bottom: 1px solid #DE5E5E;
+}
+.scheduleTriggerTaskDropper {
+  background-color: #DE5E5E;
+  border: 1px solid #DE5E5E;
+}
+.scheduleParam {
+  background: #B33434;
+}
+/*#endregion*/
+/*#region notifications*/
+#notificationContainer .notification .notificationProgessContainer {
+  border: 1px solid #B33434;
+}
+#notificationContainer .notification .notificationProgressBar {
+  background-color: #B33434;
+}
+/*#endregion*/
+/*#region misc*/
+#relatedLinkA {
+  color: #DE5E5E;
+}
+.treeItem.selected {
+  background-color: #4a6;
+}
+.itemList .item:hover {
+  background-color: #693333;
+}
+.itemList .item:active {
+  background-color: #412525;
+}
+.itemList .item.selected {
+  border-right: 4px solid #DE5E5E;
+}
+/*#endregion*/
+/*#region mobile*/
+@media not screen and (max-width: 660px), screen and (min-resolution: 100dpi) and (max-width: 980px), screen and (min-resolution: 150dpi) and (max-width: 1440px), screen and (min-resolution: 300dpi) and (max-width: 2000px) {
+  .desktopContextMenu.desktopContextMenu .buttonListSeparator {
+    border-bottom: 1px solid #DE5E5E;
+  }
+}
+/*#endregion*/
+/*#region Plugins*/
+/*#region File Manager*/
+.fmPathSegment {
+  background-color: #7E2525 !important;
+}
+.fmPathSegment::after {
+  border-left: 10px solid #7E2525 !important;
+}
+.fmPathSegment:nth-child(even) {
+  background-color: #8D3434 !important;
+}
+.fmPathSegment:nth-child(even)::after {
+  border-left-color: #8D3434 !important;
+}
+.fmPathSegment:hover {
+  background-color: #CE6161 !important;
+}
+.fmPathSegment:hover::after {
+  border-left-color: #CE6161 !important;
+}
+.fmPathSegment:active {
+  background-color: #7E2525 !important;
+}
+.fmPathSegment:active::after {
+  border-left-color: #7E2525 !important;
+}
+.fileManagerEntry:hover {
+  background: #693333 !important;
+}
+.fileManagerEntry:active {
+  background: #412525 !important;
+}
+/*#endregion*/
+/*#region Local File Backup Plugin*/
+#backupsList .backupListing:hover {
+  background-color: #DE5E5E !important;
+}
+#backupsList .backupListing:active {
+  background-color: #CA4A4A !important;
+}
+#backupsList .backupListing.sticky {
+  border-bottom: 2px solid #740E37 !important;
+}
+#backupsList .backupListing.selected {
+  background-color: #DE5E5E !important;
+}
+/*#endregion*/
+/*#region Minecraft*/
+.ampWhitelistEntry {
+  background: #A63333 !important;
+}
+.ampWhitelistEntry:hover {
+  background: #DE5E5E !important;
+}
+.ampWhitelistEntry:active {
+  background: #A63333 !important;
+}
+.BukGetCategoryEntry.selected {
+  background-color: #772B2B !important;
+}
+/*#endregion*/
+/*#endregion*/
